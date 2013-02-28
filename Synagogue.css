@@ -1,0 +1,209 @@
+body 
+{
+    font-family:@Arial Unicode MS;
+   background-image:url("../Images/back31.jpg");
+   background-repeat:repeat;
+   behavior: url(&quot;csshover.htc&quot;);
+
+   
+}
+
+ #oHomePage {behavior:url(#default#homepage);}
+
+
+.MainDiv
+{
+    border: medium solid #CC6600;
+    width: 880px;
+    height: 880PX;
+    background-color: #FFCC66;
+    margin: 10px 0 10px 250px;
+    background-attachment:scroll;
+    
+}
+
+
+#Datediv
+{
+    height:30px;
+    background-color:Orange;
+    margin:0 15px 0 15px;
+}
+
+div#menu ul
+{
+    visibility: visible;
+    clip: rect(auto, auto, 1px, auto);
+    line-height: 40px;
+}
+
+div#menu ul li
+{
+    list-style: none;
+    direction: rtl;
+    margin:5px 0 0 0;
+    background-image:url("../Images/back4.jpg");
+    position: relative;
+   border-bottom: 1px solid silver;
+}
+
+div#menu ul li a 
+{ 
+    font-family: 'Guttman Stam';
+    color: #800000;
+    text-decoration:none;
+    font-size: medium;
+    font-weight: bold;
+    display: block;
+    
+}
+
+div#menu ul li a:hover 
+{ 
+   
+    color: #FF3300;
+    text-decoration:underline;
+    font-size: medium;
+    font-weight: bold;
+}
+
+div#menu ul ul {  position: absolute;  top: 0;  right: 9.5em;}
+
+#Logo 
+{
+    background-image:url("../Images/SynName.png");
+    background-repeat:no-repeat;
+    margin:5px 10px 5px 0;
+    height:100px;
+    width:590px;
+    float:right;
+}
+
+#synPic
+{
+    margin:5px 0 5px 10px;
+}
+
+.marquee
+{  
+    display: inline-block;
+    overflow: -webkit-marquee;
+    -webkit-marquee-direction: right;
+    -webkit-marquee-style: scroll;
+    -webkit-marquee-increment: 1px;
+    -webkit-marquee-speed: 10ms;
+  
+}
+
+#showf
+{
+    width:500px;
+    margin-left:20px;
+    position:static;
+    
+}
+
+#ShowPage
+{
+}
+
+#rights
+{
+    font-weight:bold;
+    font-family:Guttman Calligraphic;
+    font-style:italic;
+    color:Orange;
+    position:absolute;
+    top:870px;
+    left:40%;
+}
+
+#rights a
+{
+    text-decoration:none;
+    font-size:11px;
+    color:Black;
+}
+
+#homepage
+{
+    position:absolute;
+    top:15px;
+    left:20%;
+}
+
+#homepage a
+{
+    color:Blue;
+}
+
+#homepage a:hover
+{
+    color:Orange;
+    background-color:White;
+}
+
+#mivzak
+{
+    position:absolute;
+    top:500px;
+    left:85%;
+}
+
+#zmanim
+{ 
+    position:absolute;
+    top:220px;
+    left:5px;
+}
+
+#LinksBody
+{
+    background-color:Silver !important;
+}
+
+#LinksTbl
+{
+     
+     font-family:Guttman Stam1;
+     font-size:medium;
+     font-weight:bold;
+     width:550;
+     float:right;
+     top:auto;
+     margin-bottom:20px
+     
+}
+
+PIC{----------------------------------------------------------------;}
+
+#synside    
+{
+    position:absolute;
+    top:10px;
+    left:85%;
+    height:480px;
+    width:190px;
+}
+
+#synsideLeft
+{ 
+    position:absolute;
+    top:10px;
+    left:5px;
+    height:170px;
+    width:250px;
+}
+
+#synPic
+{
+    height:150px;
+    width:255px;
+}
+
+#rights a img
+{
+    height: 14px;
+    width: 14px;
+    border:0;
+}
